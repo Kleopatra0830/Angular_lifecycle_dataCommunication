@@ -1,0 +1,16 @@
+<!-- <div style="text-align:center">
+  <h1>Angular Data Sharing Example</h1>
+  <app-parent></app-parent>
+</div> -->
+
+<div style="text-align:center">
+  <h1>Angular Lifecycle Hooks Example</h1>
+  <input [(ngModel)]="inputData" placeholder="Type something to change the input"/>
+  <app-lifecycle [data]="inputData"></app-lifecycle>
+
+  <button (click)="toggleComponent()">Toggle Lifecycle Component</button>
+ 
+  <button (click)="changeInput()">Change Input Data</button>
+
+
+</div>
